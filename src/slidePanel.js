@@ -1,4 +1,4 @@
-import $ from 'jQuery';
+import $ from 'jquery';
 import _SlidePanel from './_SlidePanel';
 
 const SlidePanel = {

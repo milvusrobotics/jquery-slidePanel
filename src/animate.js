@@ -1,4 +1,4 @@
-import $ from 'jQuery';
+import $ from 'jquery';
 import getTime from './getTime';
 import Support from './support';
 import Easings from './easings';

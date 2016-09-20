@@ -1,4 +1,4 @@
-import $ from 'jQuery';
+import $ from 'jquery';
 import Animate from './animate';
 import Loading from './loading';
 import Drag from './drag';

@@ -1,4 +1,4 @@
-import $ from 'jQuery';
+import $ from 'jquery';
 import View from './view';
 import getHashCode from './getHashCode';
 import Instance from './instance';

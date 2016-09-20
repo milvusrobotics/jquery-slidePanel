@@ -1,4 +1,4 @@
-import $ from 'jQuery';
+import $ from 'jquery';
 import Support from './support';
 import _SlidePanel from './_SlidePanel';
 

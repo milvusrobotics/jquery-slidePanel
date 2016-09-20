@@ -6,7 +6,7 @@
 * @link https://github.com/amazingSurge/jquery-slidePanel
 * @copyright LGPL-3.0
 */
-import $ from 'jQuery';
+import $ from 'jquery';
 
 var getTime = () => {
   'use strict';
