@@ -81,7 +81,6 @@ const SlidePanel = {
   },
 
   hide(...args) {
-    'use strict';
     _SlidePanel.hide(args);
     return this;
   }

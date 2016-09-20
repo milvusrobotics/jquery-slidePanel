@@ -6,7 +6,6 @@ class Instance {
     this.initialize(object,...args);
   }
   initialize(object,...args) {
-    'use strict';
     const options = args[0] || {};
 
     if (typeof object === 'string') {

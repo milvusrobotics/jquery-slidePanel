@@ -38,7 +38,6 @@ const _SlidePanel = {
   },
 
   trigger(view, event, ...args) {
-    'use strict';
     const data = [view].concat(args);
 
     // event

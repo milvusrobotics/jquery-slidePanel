@@ -1056,7 +1056,6 @@ const SlidePanel$1 = {
   },
 
   hide(...args) {
-    'use strict';
     _SlidePanel.hide(args);
     return this;
   }
@@ -1067,7 +1066,6 @@ class Instance {
     this.initialize(object,...args);
   }
   initialize(object,...args) {
-    'use strict';
     const options = args[0] || {};
 
     if (typeof object === 'string') {
@@ -1102,7 +1100,6 @@ class Instance {
  * https://github.com/amazingSurge/jquery-slidePanel
  * Copyright (c) 2015 amazingSurge; Licensed GPL */
 const SlidePanel = $.slidePanel = function(...args) {
-  'use strict';
   SlidePanel.show(...args);
 };
 if (!Date.now) {
@@ -1213,14 +1210,12 @@ $.extend(SlidePanel, {
   },
 
   hide(...args) {
-    'use strict';
     _SlidePanel.hide(args);
     return this;
   }
 });
 
 $.fn.slidePanel = function(options, ...args) {
-  'use strict';
   const method = options;
 
   if (typeof options === 'string') {

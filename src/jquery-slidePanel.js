@@ -7,7 +7,6 @@ import Instance from './instance';
 import _SlidePanel from './_SlidePanel';
 
 const SlidePanel = $.slidePanel = function(...args) {
-  'use strict';
   SlidePanel.show(...args);
 };
 if (!Date.now) {
@@ -118,14 +117,12 @@ $.extend(SlidePanel, {
   },
 
   hide(...args) {
-    'use strict';
     _SlidePanel.hide(args);
     return this;
   }
 });
 
 $.fn.slidePanel = function(options, ...args) {
-  'use strict';
   const method = options;
 
   if (typeof options === 'string') {
