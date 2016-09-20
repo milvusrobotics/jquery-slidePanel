@@ -1,7 +1,7 @@
 /*! jQuery slidePanel - v0.2.2 - 2015-10-14
  * https://github.com/amazingSurge/jquery-slidePanel
  * Copyright (c) 2015 amazingSurge; Licensed GPL */
-import $ from 'jQuery';
+import $ from 'jquery';
 import getTime from './getTime';
 import Instance from './instance';
 import _SlidePanel from './_SlidePanel';
