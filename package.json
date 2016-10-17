@@ -22,10 +22,6 @@
   ],
   "license": "LGPL-3.0",
   "main": "src/jquery-slidePanel.js",
-  "engines": {
-    "node": ">= 6.2.2",
-    "npm": ">= 3"
-  },
   "dependencies": {
     "jquery": "^3.1.0"
   }
